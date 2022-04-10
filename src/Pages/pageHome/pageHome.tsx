@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 type PageHomeProps = {
     
@@ -7,7 +8,7 @@ type PageHomeProps = {
 const PageHome = ({ } : PageHomeProps) => {
     return (
         <>
-            Hello from Home
+            <Link to="/login">Login</Link>
         </>
     )
 }
